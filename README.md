@@ -1,4 +1,25 @@
-# A.C.M API
+# Minecraft Bedrock Addon Configuration Manager (ACM)
+
+<p align="center">
+  <img src="packs\BP\pack_icon.png" alt="ACM Logo"/>
+</p>
+
+The Addon Configuration Manager (ACM) for Minecraft Bedrock is designed to streamline the configuration process for addons. It offers developers an efficient way to design configuration menus through a simple setup, utilizing Minecraft's scoreboard system and following specific syntax rules.
+
+---
+
+## Download
+
+### [ACM Addon (For Users)](https://github.com/voxeldon/mcb-acm/releases/download/ADDON/acm1.0.0.mcaddon)
+### [ACM LIB (For Developers)](https://github.com/voxeldon/mcb-acm/releases/download/TS_API/acm_api.ts)
+
+## How to use
+
+Use the addon by running the command: `/scriptevent acm:menu`
+
+---
+
+# API Documentation
 
 ## Overview
 
