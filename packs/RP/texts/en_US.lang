@@ -1,0 +1,25 @@
+pack.name=A.C.M 2
+pack.description=A.C.M 2
+
+acm.lang.header=A.C.M
+acm.lang.yes=Yes
+acm.lang.no=No
+acm.lang.return=Return
+acm.lang.guide=Guide
+acm.lang.settings=Settings
+acm.lang.uninstall=Uninstall
+acm.lang.extension=Run Extension
+acm.lang.registered_addons=Registered Addons
+acm.lang.uninstall_warn=Are you sure you want to uninstall 
+acm.lang.uninstall_warn2=Uninstalling will delete all previous saved ACM addon data.
+acm.lang.addon_uninstalled=Addon was successfully uninstalled.
+acm.lang.load_error=Error loading addon data.
+acm.lang.privilege=You lack the required privileges to acsses this feature.
+
+acm.vxl_acm.pack_name=§5A.C.M§r
+acm.vxl_acm.author_name=Donthedev
+acm.vxl_acm.description=ACM is designed to streamline the configuration process for addons. It offers developers a simple way to design settings menus and a one stop location for users to customize their installed addons.
+acm.vxl_acm.use_tag=Require a tag to access ACM menu.
+acm.vxl_acm.tag_key=Required Tag Id
+acm.vxl_acm.tag_key_placeholder=Example: Admin
+acm.vxl_acm.extension_name=Custom Extension Title
