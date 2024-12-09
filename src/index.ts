@@ -17,16 +17,6 @@ const openHudCommand = {
     })
 };
 
-const test = {
-    id: 'test',
-    description: 'test',
-    callback: ((event: CommandRanEvent) => {
-        const block: Block | undefined = event.player.dimension.getBlock(event.player.location);
-        const tags = block?.getTags();
-        console.warn(tags)
-    })
-};
-
 export const ACM: AddonConfiguration = {
     authorId: 'vxl',
     packId: 'acm',
@@ -45,4 +35,4 @@ export const ACM: AddonConfiguration = {
 new WelcomeHud();
 new ConfigManager();
 AcmApi.generateAddonProfile(ACM);
-CommandHandler.initialize('acm', [openHudCommand, test]);
+CommandHandler.initialize('acm', [openHudCommand]);
