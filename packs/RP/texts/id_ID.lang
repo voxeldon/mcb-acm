@@ -1,0 +1,47 @@
+pack.name=A.C.M
+pack.description=Manajer Konfigurasi Addon
+
+item.vxl_acm:tool=Alat A.C.M
+
+acm.lang.header=A.C.M
+acm.lang.yes=Ya
+acm.lang.no=TIDAK
+acm.lang.return=Kembali
+acm.lang.guide=Memandu
+acm.lang.settings=Pengaturan
+acm.lang.uninstall=Copot pemasangan
+acm.lang.extension=Jalankan Ekstensi
+acm.lang.registered_addons=Addon Terdaftar
+acm.lang.uninstall_warn=Apakah Anda yakin ingin mencopot pemasangannya?
+acm.lang.uninstall_warn2=Menghapus instalasi akan menghapus semua data add-on ACM yang disimpan sebelumnya.
+acm.lang.addon_uninstalled=Addon berhasil di-uninstall.
+acm.lang.load_error=Terjadi kesalahan saat memuat data tambahan.
+acm.lang.privilege=Anda tidak memiliki hak istimewa yang diperlukan untuk mengakses fitur ini.
+
+acm.welcome.button.confirm=Oke
+acm.welcome.on_ready.body_line0=§6Terima kasih telah menginstal §5Addon Configuration Manager§r§6!
+acm.welcome.on_ready.body_line1=Apakah Anda lebih suka menggunakan §4item (Nyaman)§6 atau perintah §2 (Aman)§r§6 untuk mengaktifkan menu ACM?
+acm.welcome.on_ready.button.command=§2Perintah (Aman)
+acm.welcome.on_ready.button.item=§4Item (Nyaman)
+acm.welcome.item_choice.body_line=§6Pemain sekarang dapat mengakses Menu ACM dengan Alat ACM.
+acm.welcome.command_choice.body_line_0=§6Pemain sekarang dapat mengakses Menu ACM dengan Perintah ACM.
+acm.welcome.command_choice.body_line_1=§5/scriptevent acm:menu
+acm.welcome.tag_choice.body_line_0=§6Mewajibkan pemain memiliki tag untuk mengakses pengaturan di Menu ACM? §2(Disarankan)§r
+acm.welcome.tag_choice.body_line_1=§6Ini dapat diubah kapan saja di pengaturan ACM.
+acm.welcome.tag_choice.button.yes=§2Ya (Aman)
+acm.welcome.tag_choice.button.no=§4Tidak (Tidak Aman)
+acm.welcome.config_finished.body_line_0=§6Pengaturan ACM sekarang selesai!
+acm.welcome.config_finished.body_line_1=§6Pilihan Anda dapat diubah kapan saja di Menu Pengaturan ACM.
+acm.welcome.config_finished.body_line_2=§6Lihat situs web kami:
+acm.welcome.config_finished.body_line_3=§3voxellabstudios.com
+acm.welcome.config_finished.body_line_4=§6untuk Add-on yang kompatibel dengan ACM!
+acm.welcome.tag_asigned.body_line_0=§6Pemain sekarang memerlukan tag untuk mengakses pengaturan di Menu ACM.
+acm.welcome.tag_asigned.body_line_1=§5ID Tag
+
+acm.vxl_acm.pack_name=§5A.C.M§r
+acm.vxl_acm.author_name=Donthedev
+acm.vxl_acm.description=ACM dirancang untuk menyederhanakan proses konfigurasi untuk add-on. Ini menawarkan pengembang cara sederhana untuk merancang menu pengaturan dan lokasi terpadu bagi pengguna untuk menyesuaikan add-on yang mereka instal.
+acm.vxl_acm.use_tag=Memerlukan tag untuk mengakses menu ACM.
+acm.vxl_acm.tag_key=Id Tag yang Diperlukan
+acm.vxl_acm.tag_key_placeholder=Contoh: Admin
+acm.vxl_acm.extension_name=Judul Ekstensi Khusus

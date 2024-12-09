@@ -1,0 +1,47 @@
+pack.name=А.С.М.
+pack.description=Менеджер конфигурации аддонов
+
+item.vxl_acm:tool=Инструмент ACM
+
+acm.lang.header=А.С.М.
+acm.lang.yes=Да
+acm.lang.no=Нет
+acm.lang.return=Возвращаться
+acm.lang.guide=Гид
+acm.lang.settings=Настройки
+acm.lang.uninstall=Удалить
+acm.lang.extension=Запустить расширение
+acm.lang.registered_addons=Зарегистрированные дополнения
+acm.lang.uninstall_warn=Вы уверены, что хотите удалить?
+acm.lang.uninstall_warn2=При удалении будут удалены все ранее сохраненные данные дополнения ACM.
+acm.lang.addon_uninstalled=Аддон успешно удален.
+acm.lang.load_error=Ошибка загрузки данных дополнения.
+acm.lang.privilege=У вас нет необходимых прав для доступа к этой функции.
+
+acm.welcome.button.confirm=Хорошо
+acm.welcome.on_ready.body_line0=§6Спасибо за установку §5Менеджер конфигурации дополнений§r§6!
+acm.welcome.on_ready.body_line1=Вы предпочитаете использовать пункт §4 (Удобно)§6 или команду §2 (Безопасно)§r§6 для активации меню ACM?
+acm.welcome.on_ready.button.command=§2Команда (Безопасно)
+acm.welcome.on_ready.button.item=§4Предмет (удобный)
+acm.welcome.item_choice.body_line=§6Игроки теперь смогут получить доступ к меню ACM с помощью инструмента ACM.
+acm.welcome.command_choice.body_line_0=§6Игроки теперь смогут получить доступ к меню ACM с помощью команды ACM.
+acm.welcome.command_choice.body_line_1=§5/scriptevent acm:menu
+acm.welcome.tag_choice.body_line_0=§6Требовать ли от игроков наличия тега для доступа к настройкам в меню ACM? §2(рекомендуется)§r
+acm.welcome.tag_choice.body_line_1=§6Это можно изменить в любой момент в настройках ACM.
+acm.welcome.tag_choice.button.yes=§2Да (безопасно)
+acm.welcome.tag_choice.button.no=§4Нет (небезопасно)
+acm.welcome.config_finished.body_line_0=§6Настройка ACM завершена!
+acm.welcome.config_finished.body_line_1=§6Ваш выбор можно изменить в любое время в меню настроек ACM.
+acm.welcome.config_finished.body_line_2=§6Посетите наш сайт:
+acm.welcome.config_finished.body_line_3=§3voxellabstudios.com
+acm.welcome.config_finished.body_line_4=§6 для ACM-совместимых дополнений!
+acm.welcome.tag_asigned.body_line_0=§6Игрокам теперь потребуется тег для доступа к настройкам в меню ACM.
+acm.welcome.tag_asigned.body_line_1=§5Идентификатор тега
+
+acm.vxl_acm.pack_name=§5A.C.M§r
+acm.vxl_acm.author_name=Донтедев
+acm.vxl_acm.description=ACM предназначен для оптимизации процесса настройки дополнений. Он предлагает разработчикам простой способ создания меню настроек и универсальное место, где пользователи могут настроить установленные надстройки.
+acm.vxl_acm.use_tag=Требовать тег для доступа к меню ACM.
+acm.vxl_acm.tag_key=Требуемый идентификатор тега
+acm.vxl_acm.tag_key_placeholder=Пример: Администратор
+acm.vxl_acm.extension_name=Название пользовательского расширения

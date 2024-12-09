@@ -1,0 +1,33 @@
+{
+	"format_version": "1.20.10",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "vxl_acm:tool"
+		},
+		"tags": [
+			"crafting_table", "vxl_core_artisan_table"
+		],
+		"pattern": [
+			"$##",
+			"#$#",
+			"##$"
+		],
+		"key": {
+			"$": {
+				"item": "minecraft:cobblestone"
+			},
+			"#": {
+				"item": "minecraft:dirt"
+			}
+		},
+		"unlock": [
+			{
+				"item": "vxl_acm:tool"
+			}
+		],
+		"result": {
+			"item": "vxl_acm:tool",
+			"data": 0
+		}
+	}
+}

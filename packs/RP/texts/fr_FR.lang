@@ -1,0 +1,47 @@
+pack.name=A.C.M.
+pack.description=Gestionnaire de configuration complémentaire
+
+item.vxl_acm:tool=Outil A.C.M
+
+acm.lang.header=A.C.M.
+acm.lang.yes=Oui
+acm.lang.no=Non
+acm.lang.return=Retour
+acm.lang.guide=Guide
+acm.lang.settings=Paramètres
+acm.lang.uninstall=Désinstaller
+acm.lang.extension=Exécuter l'extension
+acm.lang.registered_addons=Modules complémentaires enregistrés
+acm.lang.uninstall_warn=Êtes-vous sûr de vouloir désinstaller ?
+acm.lang.uninstall_warn2=La désinstallation supprimera toutes les données du module complémentaire ACM précédemment enregistrées.
+acm.lang.addon_uninstalled=Le module complémentaire a été désinstallé avec succès.
+acm.lang.load_error=Erreur lors du chargement des données du module complémentaire.
+acm.lang.privilege=Vous ne disposez pas des privilèges requis pour accéder à cette fonctionnalité.
+
+acm.welcome.button.confirm=D'accord
+acm.welcome.on_ready.body_line0=§6Merci d'avoir installé §5Addon Configuration Manager§r§6 !
+acm.welcome.on_ready.body_line1=Préféreriez-vous utiliser un §4item (Pratique)§6 ou une §2commande (Safe)§r§6 pour activer le menu ACM ?
+acm.welcome.on_ready.button.command=§2Commandement (Coffre-fort)
+acm.welcome.on_ready.button.item=§4Article (pratique)
+acm.welcome.item_choice.body_line=§6Les joueurs pourront désormais accéder au menu ACM avec l'outil ACM.
+acm.welcome.command_choice.body_line_0=§6Les joueurs pourront désormais accéder au menu ACM avec la commande ACM.
+acm.welcome.command_choice.body_line_1=§5/scriptévénement acm:menu
+acm.welcome.tag_choice.body_line_0=§6Exiger que les joueurs aient un tag pour accéder aux paramètres du menu ACM ? §2(Recommandé)§r
+acm.welcome.tag_choice.body_line_1=§6Cela peut être modifié à tout moment dans les paramètres ACM.
+acm.welcome.tag_choice.button.yes=§2Oui (Coffre-fort)
+acm.welcome.tag_choice.button.no=§4Non (Dangereux)
+acm.welcome.config_finished.body_line_0=La configuration §6ACM est maintenant terminée !
+acm.welcome.config_finished.body_line_1=§6Vos choix peuvent être modifiés à tout moment dans le menu Paramètres ACM.
+acm.welcome.config_finished.body_line_2=§6Consultez notre site Internet :
+acm.welcome.config_finished.body_line_3=§3voxellabstudios.com
+acm.welcome.config_finished.body_line_4=§6pour les modules complémentaires compatibles ACM !
+acm.welcome.tag_asigned.body_line_0=§6Les joueurs auront désormais besoin d'une balise pour accéder aux paramètres du menu ACM.
+acm.welcome.tag_asigned.body_line_1=§5Identifiant de l'étiquette
+
+acm.vxl_acm.pack_name=§5A.C.M§r
+acm.vxl_acm.author_name=Donthedev
+acm.vxl_acm.description=ACM est conçu pour rationaliser le processus de configuration des modules complémentaires. Il offre aux développeurs un moyen simple de concevoir des menus de paramètres et un emplacement unique permettant aux utilisateurs de personnaliser leurs modules complémentaires installés.
+acm.vxl_acm.use_tag=Exiger une balise pour accéder au menu ACM.
+acm.vxl_acm.tag_key=Identifiant de balise requis
+acm.vxl_acm.tag_key_placeholder=Exemple : Administrateur
+acm.vxl_acm.extension_name=Titre de l'extension personnalisée

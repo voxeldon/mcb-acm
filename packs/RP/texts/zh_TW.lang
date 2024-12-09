@@ -1,0 +1,47 @@
+pack.name=A.C.M.
+pack.description=插件配置管理器
+
+item.vxl_acm:tool=A.C.M 工具
+
+acm.lang.header=A.C.M.
+acm.lang.yes=是的
+acm.lang.no=不
+acm.lang.return=返回
+acm.lang.guide=指导
+acm.lang.settings=设置
+acm.lang.uninstall=卸载
+acm.lang.extension=运行扩展
+acm.lang.registered_addons=注册插件
+acm.lang.uninstall_warn=您确定要卸载吗？
+acm.lang.uninstall_warn2=卸载将删除所有以前保存的 ACM 插件数据。
+acm.lang.addon_uninstalled=插件已成功卸载。
+acm.lang.load_error=加载插件数据时出错。
+acm.lang.privilege=您缺乏访问此功能所需的权限。
+
+acm.welcome.button.confirm=好的
+acm.welcome.on_ready.body_line0=§6感谢您安装§5插件配置管理器§r§6！
+acm.welcome.on_ready.body_line1=您愿意使用 §4 项目（方便）§6 还是 §2 命令（安全）§r§6 来激活 ACM 菜单？
+acm.welcome.on_ready.button.command=§2命令（安全）
+acm.welcome.on_ready.button.item=§4项目（方便）
+acm.welcome.item_choice.body_line=§6玩家现在可以使用 ACM 工具访问 ACM 菜单。
+acm.welcome.command_choice.body_line_0=§6玩家现在可以使用 ACM 命令访问 ACM 菜单。
+acm.welcome.command_choice.body_line_1=§5/scriptevent acm:菜单
+acm.welcome.tag_choice.body_line_0=§6要求玩家有标签才能访问 ACM 菜单中的设置？ §2（推荐）§r
+acm.welcome.tag_choice.body_line_1=§6可以随时在 ACM 设置中更改此设置。
+acm.welcome.tag_choice.button.yes=§2是（安全）
+acm.welcome.tag_choice.button.no=§4否（不安全）
+acm.welcome.config_finished.body_line_0=§6ACM 设置现已完成！
+acm.welcome.config_finished.body_line_1=§6您可以随时在 ACM 设置菜单中更改您的选择。
+acm.welcome.config_finished.body_line_2=§6查看我们的网站：
+acm.welcome.config_finished.body_line_3=§3voxellabstudios.com
+acm.welcome.config_finished.body_line_4=§6 适用于 ACM 兼容插件！
+acm.welcome.tag_asigned.body_line_0=§6玩家现在需要一个标签才能访问 ACM 菜单中的设置。
+acm.welcome.tag_asigned.body_line_1=§5标签ID
+
+acm.vxl_acm.pack_name=§5A.C.M§r
+acm.vxl_acm.author_name=顿泰德夫
+acm.vxl_acm.description=ACM 旨在简化插件的配置过程。它为开发人员提供了一种简单的方法来设计设置菜单，并为用户提供了一站式位置来自定义其安装的插件。
+acm.vxl_acm.use_tag=需要标签才能访问 ACM 菜单。
+acm.vxl_acm.tag_key=所需标签 ID
+acm.vxl_acm.tag_key_placeholder=示例：管理员
+acm.vxl_acm.extension_name=自定义扩展标题

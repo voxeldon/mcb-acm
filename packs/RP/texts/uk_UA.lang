@@ -1,0 +1,47 @@
+pack.name=A.C.M
+pack.description=Менеджер конфігурації аддонів
+
+item.vxl_acm:tool=Інструмент A.C.M
+
+acm.lang.header=A.C.M
+acm.lang.yes=так
+acm.lang.no=немає
+acm.lang.return=Повернення
+acm.lang.guide=Гід
+acm.lang.settings=Налаштування
+acm.lang.uninstall=Видалити
+acm.lang.extension=Запустіть розширення
+acm.lang.registered_addons=Зареєстровані аддони
+acm.lang.uninstall_warn=Ви впевнені, що хочете видалити?
+acm.lang.uninstall_warn2=Видалення призведе до видалення всіх попередньо збережених даних аддонів ACM.
+acm.lang.addon_uninstalled=Аддон успішно видалено.
+acm.lang.load_error=Помилка завантаження даних аддона.
+acm.lang.privilege=У вас немає необхідних привілеїв для доступу до цієї функції.
+
+acm.welcome.button.confirm=Гаразд
+acm.welcome.on_ready.body_line0=§6Дякуємо за встановлення §5Addon Configuration Manager§r§6!
+acm.welcome.on_ready.body_line1=Чи бажаєте ви використовувати §4пункт (зручно)§6 чи §2команду (безпечно)§r§6 для активації меню ACM?
+acm.welcome.on_ready.button.command=§2Команда (безпечна)
+acm.welcome.on_ready.button.item=§4Пункт (зручно)
+acm.welcome.item_choice.body_line=§6 Гравці тепер зможуть отримати доступ до меню ACM за допомогою інструмента ACM.
+acm.welcome.command_choice.body_line_0=§6 Гравці тепер зможуть отримати доступ до меню ACM за допомогою команди ACM.
+acm.welcome.command_choice.body_line_1=§5/scriptevent acm:menu
+acm.welcome.tag_choice.body_line_0=§6Вимагати від гравців мати тег для доступу до налаштувань у меню ACM? §2 (рекомендовано)§r
+acm.welcome.tag_choice.body_line_1=§6Це можна будь-коли змінити в налаштуваннях ACM.
+acm.welcome.tag_choice.button.yes=§2Так (безпечно)
+acm.welcome.tag_choice.button.no=§4Ні (небезпечно)
+acm.welcome.config_finished.body_line_0=§6 Налаштування ACM завершено!
+acm.welcome.config_finished.body_line_1=§6Ваш вибір можна будь-коли змінити в меню налаштувань ACM.
+acm.welcome.config_finished.body_line_2=§6 Перегляньте наш веб-сайт:
+acm.welcome.config_finished.body_line_3=§3voxellabstudios.com
+acm.welcome.config_finished.body_line_4=§6 для ACM-сумісних аддонів!
+acm.welcome.tag_asigned.body_line_0=§6 Гравцям тепер потрібен тег для доступу до налаштувань у меню ACM.
+acm.welcome.tag_asigned.body_line_1=§5 Ідентифікатор мітки
+
+acm.vxl_acm.pack_name=§5A.C.M§r
+acm.vxl_acm.author_name=Донтедев
+acm.vxl_acm.description=ACM розроблено для спрощення процесу конфігурації аддонів. Він пропонує розробникам простий спосіб створення меню налаштувань і єдине місце, де користувачі можуть налаштувати свої встановлені додатки.
+acm.vxl_acm.use_tag=Потрібен тег для доступу до меню ACM.
+acm.vxl_acm.tag_key=Необхідний ідентифікатор тегу
+acm.vxl_acm.tag_key_placeholder=Приклад: адмін
+acm.vxl_acm.extension_name=Назва спеціального розширення

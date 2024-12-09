@@ -1,0 +1,47 @@
+pack.name=A.C.M
+pack.description=Add-on configuratiebeheer
+
+item.vxl_acm:tool=A.C.M-tool
+
+acm.lang.header=A.C.M
+acm.lang.yes=Ja
+acm.lang.no=Nee
+acm.lang.return=Opbrengst
+acm.lang.guide=Gids
+acm.lang.settings=Instellingen
+acm.lang.uninstall=Verwijderen
+acm.lang.extension=Extensie uitvoeren
+acm.lang.registered_addons=Geregistreerde add-ons
+acm.lang.uninstall_warn=Weet u zeker dat u wilt verwijderen?
+acm.lang.uninstall_warn2=Als u de installatie ongedaan maakt, worden alle eerder opgeslagen ACM-add-ongegevens verwijderd.
+acm.lang.addon_uninstalled=Addon is succesvol verwijderd.
+acm.lang.load_error=Fout bij het laden van add-ongegevens.
+acm.lang.privilege=U beschikt niet over de vereiste rechten om toegang te krijgen tot deze functie.
+
+acm.welcome.button.confirm=Oké
+acm.welcome.on_ready.body_line0=§6Bedankt voor het installeren van §5Addon Configuration Manager§r§6!
+acm.welcome.on_ready.body_line1=Wilt u liever een §4item (Handig)§6 of een §2commando (Veilig)§r§6 gebruiken om het ACM-menu te activeren?
+acm.welcome.on_ready.button.command=§2Commando (veilig)
+acm.welcome.on_ready.button.item=§4Item (handig)
+acm.welcome.item_choice.body_line=§6Spelers hebben nu toegang tot het ACM-menu met de ACM Tool.
+acm.welcome.command_choice.body_line_0=§6Spelers hebben nu toegang tot het ACM-menu met het ACM-commando.
+acm.welcome.command_choice.body_line_1=§5/scriptevent acm:menu
+acm.welcome.tag_choice.body_line_0=§6Vereisen dat spelers een tag hebben om toegang te krijgen tot de instellingen in het ACM-menu? §2(Aanbevolen)§r
+acm.welcome.tag_choice.body_line_1=§6Dit kan op elk moment worden gewijzigd in de ACM-instellingen.
+acm.welcome.tag_choice.button.yes=§2Ja (veilig)
+acm.welcome.tag_choice.button.no=§4Nee (onveilig)
+acm.welcome.config_finished.body_line_0=§6ACM-installatie is nu voltooid!
+acm.welcome.config_finished.body_line_1=§6Uw keuzes kunnen op elk moment worden gewijzigd in het ACM-instellingenmenu.
+acm.welcome.config_finished.body_line_2=§6Bekijk onze website:
+acm.welcome.config_finished.body_line_3=§3voxellabstudios.com
+acm.welcome.config_finished.body_line_4=§6voor ACM-compatibele add-ons!
+acm.welcome.tag_asigned.body_line_0=§6Spelers hebben nu een tag nodig om toegang te krijgen tot de instellingen in het ACM-menu.
+acm.welcome.tag_asigned.body_line_1=§5Tag-ID
+
+acm.vxl_acm.pack_name=§5A.C.M§r
+acm.vxl_acm.author_name=Donthedev
+acm.vxl_acm.description=ACM is ontworpen om het configuratieproces voor add-ons te stroomlijnen. Het biedt ontwikkelaars een eenvoudige manier om instellingenmenu's te ontwerpen en een centrale locatie waar gebruikers hun geïnstalleerde add-ons kunnen aanpassen.
+acm.vxl_acm.use_tag=Een tag vereisen om toegang te krijgen tot het ACM-menu.
+acm.vxl_acm.tag_key=Vereiste tag-ID
+acm.vxl_acm.tag_key_placeholder=Voorbeeld: Beheerder
+acm.vxl_acm.extension_name=Aangepaste extensietitel

@@ -1,0 +1,47 @@
+pack.name=A.C.M.
+pack.description=アドオン構成マネージャー
+
+item.vxl_acm:tool=A.C.Mツール
+
+acm.lang.header=A.C.M.
+acm.lang.yes=はい
+acm.lang.no=いいえ
+acm.lang.return=戻る
+acm.lang.guide=ガイド
+acm.lang.settings=設定
+acm.lang.uninstall=アンインストール
+acm.lang.extension=拡張機能の実行
+acm.lang.registered_addons=登録されたアドオン
+acm.lang.uninstall_warn=アンインストールしてもよろしいですか?
+acm.lang.uninstall_warn2=アンインストールすると、以前に保存した ACM アドオン データがすべて削除されます。
+acm.lang.addon_uninstalled=アドオンは正常にアンインストールされました。
+acm.lang.load_error=アドオン データのロード中にエラーが発生しました。
+acm.lang.privilege=この機能にアクセスするために必要な権限がありません。
+
+acm.welcome.button.confirm=わかった
+acm.welcome.on_ready.body_line0=§6§5Addon Configuration Manager§r§6 をインストールしていただきありがとうございます。
+acm.welcome.on_ready.body_line1=ACM メニューをアクティブにするのに、§4item (便利)§6 と §2command (Safe)§r§6 のどちらを使用したいですか?
+acm.welcome.on_ready.button.command=§2コマンド(安全)
+acm.welcome.on_ready.button.item=§4アイテム(便利)
+acm.welcome.item_choice.body_line=§6プレイヤーは、ACM ツールを使用して ACM メニューにアクセスできるようになります。
+acm.welcome.command_choice.body_line_0=§6プレイヤーは、ACM コマンドを使用して ACM メニューにアクセスできるようになります。
+acm.welcome.command_choice.body_line_1=§5/scriptevent acm:menu
+acm.welcome.tag_choice.body_line_0=§6ACM メニューの設定にアクセスするには、プレーヤーにタグが必要ですか? §2(推奨)§r
+acm.welcome.tag_choice.body_line_1=§6これは、ACM 設定でいつでも変更できます。
+acm.welcome.tag_choice.button.yes=§2はい (安全)
+acm.welcome.tag_choice.button.no=§4いいえ (安全ではありません)
+acm.welcome.config_finished.body_line_0=§6ACM のセットアップは完了です。
+acm.welcome.config_finished.body_line_1=§6選択内容は、ACM 設定メニューでいつでも変更できます。
+acm.welcome.config_finished.body_line_2=§6当社のウェブサイトをチェックしてください:
+acm.welcome.config_finished.body_line_3=§3voxellabstudios.com
+acm.welcome.config_finished.body_line_4=§6ACM 互換アドオンについて!
+acm.welcome.tag_asigned.body_line_0=§6プレーヤーは、ACM メニューの設定にアクセスするためにタグが必要になります。
+acm.welcome.tag_asigned.body_line_1=§5タグID
+
+acm.vxl_acm.pack_name=§5A.C.M§r
+acm.vxl_acm.author_name=ドンテデフ
+acm.vxl_acm.description=ACM は、アドオンの構成プロセスを合理化するように設計されています。これは、開発者に設定メニューを設計する簡単な方法と、ユーザーがインストールされているアドオンをカスタマイズするためのワンストップの場所を提供します。
+acm.vxl_acm.use_tag=ACM メニューにアクセスするにはタグが必要です。
+acm.vxl_acm.tag_key=必須のタグID
+acm.vxl_acm.tag_key_placeholder=例: 管理者
+acm.vxl_acm.extension_name=カスタム拡張タイトル

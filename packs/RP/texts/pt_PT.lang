@@ -1,0 +1,47 @@
+pack.name=ACM
+pack.description=Gerenciador de configuração de complementos
+
+item.vxl_acm:tool=Ferramenta ACM
+
+acm.lang.header=ACM
+acm.lang.yes=Sim
+acm.lang.no=Não
+acm.lang.return=Retornar
+acm.lang.guide=Guia
+acm.lang.settings=Configurações
+acm.lang.uninstall=Desinstalar
+acm.lang.extension=Executar extensão
+acm.lang.registered_addons=Complementos registrados
+acm.lang.uninstall_warn=Tem certeza de que deseja desinstalar?
+acm.lang.uninstall_warn2=A desinstalação excluirá todos os dados do complemento ACM salvos anteriormente.
+acm.lang.addon_uninstalled=O complemento foi desinstalado com sucesso.
+acm.lang.load_error=Erro ao carregar dados adicionais.
+acm.lang.privilege=Você não tem os privilégios necessários para acessar este recurso.
+
+acm.welcome.button.confirm=OK
+acm.welcome.on_ready.body_line0=§6Obrigado por instalar §5Addon Configuration Manager§r§6!
+acm.welcome.on_ready.body_line1=Você prefere usar um §4item (Conveniente)§6 ou um §2comando (Seguro)§r§6 para ativar o menu ACM?
+acm.welcome.on_ready.button.command=§2Comando (Seguro)
+acm.welcome.on_ready.button.item=§4Item (Conveniente)
+acm.welcome.item_choice.body_line=§6Os jogadores agora poderão acessar o Menu ACM com a Ferramenta ACM.
+acm.welcome.command_choice.body_line_0=§6Os jogadores agora poderão acessar o Menu ACM com o Comando ACM.
+acm.welcome.command_choice.body_line_1=§5/evento de script acm:menu
+acm.welcome.tag_choice.body_line_0=§6Exigir que os jogadores tenham uma tag para acessar as configurações no Menu ACM? §2(Recomendado)§r
+acm.welcome.tag_choice.body_line_1=§6Isso pode ser alterado a qualquer momento nas configurações do ACM.
+acm.welcome.tag_choice.button.yes=§2Sim (Seguro)
+acm.welcome.tag_choice.button.no=§4Não (Inseguro)
+acm.welcome.config_finished.body_line_0=§6A configuração do ACM está concluída!
+acm.welcome.config_finished.body_line_1=§6Suas escolhas podem ser alteradas a qualquer momento no menu Configurações do ACM.
+acm.welcome.config_finished.body_line_2=§6Confira nosso site:
+acm.welcome.config_finished.body_line_3=§3voxelabstudios.com
+acm.welcome.config_finished.body_line_4=§6para complementos compatíveis com ACM!
+acm.welcome.tag_asigned.body_line_0=§6Os jogadores agora precisarão de uma tag para acessar as configurações no menu ACM.
+acm.welcome.tag_asigned.body_line_1=§5ID da etiqueta
+
+acm.vxl_acm.pack_name=§5A.C.M§r
+acm.vxl_acm.author_name=Donthedev
+acm.vxl_acm.description=O ACM foi projetado para agilizar o processo de configuração de complementos. Ele oferece aos desenvolvedores uma maneira simples de criar menus de configurações e um local único para os usuários personalizarem seus complementos instalados.
+acm.vxl_acm.use_tag=Exige uma tag para acessar o menu ACM.
+acm.vxl_acm.tag_key=ID de tag obrigatório
+acm.vxl_acm.tag_key_placeholder=Exemplo: Administrador
+acm.vxl_acm.extension_name=Título de extensão personalizado

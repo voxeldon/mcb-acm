@@ -1,0 +1,47 @@
+pack.name=A.C.M
+pack.description=Add-on-Konfigurationsmanager
+
+item.vxl_acm:tool=A.C.M-Tool
+
+acm.lang.header=A.C.M
+acm.lang.yes=Ja
+acm.lang.no=NEIN
+acm.lang.return=Zurückkehren
+acm.lang.guide=Führung
+acm.lang.settings=Einstellungen
+acm.lang.uninstall=Deinstallieren
+acm.lang.extension=Führen Sie die Erweiterung aus
+acm.lang.registered_addons=Registrierte Add-ons
+acm.lang.uninstall_warn=Sind Sie sicher, dass Sie die Deinstallation durchführen möchten?
+acm.lang.uninstall_warn2=Durch die Deinstallation werden alle zuvor gespeicherten ACM-Add-on-Daten gelöscht.
+acm.lang.addon_uninstalled=Addon wurde erfolgreich deinstalliert.
+acm.lang.load_error=Fehler beim Laden der Add-on-Daten.
+acm.lang.privilege=Ihnen fehlen die erforderlichen Berechtigungen, um auf diese Funktion zuzugreifen.
+
+acm.welcome.button.confirm=Okay
+acm.welcome.on_ready.body_line0=§6Vielen Dank für die Installation §5Addon Configuration Manager§r§6!
+acm.welcome.on_ready.body_line1=Möchten Sie lieber einen §4item (Bequem)§6 oder einen §2Befehl (Sicher)§r§6 verwenden, um das ACM-Menü zu aktivieren?
+acm.welcome.on_ready.button.command=§2Befehl (sicher)
+acm.welcome.on_ready.button.item=§4Artikel (Praktisch)
+acm.welcome.item_choice.body_line=§6Spieler können jetzt mit dem ACM-Tool auf das ACM-Menü zugreifen.
+acm.welcome.command_choice.body_line_0=§6Spieler können jetzt mit dem ACM-Befehl auf das ACM-Menü zugreifen.
+acm.welcome.command_choice.body_line_1=§5/scriptevent acm:menu
+acm.welcome.tag_choice.body_line_0=§6Müssen Spieler über ein Tag verfügen, um auf die Einstellungen im ACM-Menü zugreifen zu können? §2(Empfohlen)§r
+acm.welcome.tag_choice.body_line_1=§6Dies kann jederzeit in den ACM-Einstellungen geändert werden.
+acm.welcome.tag_choice.button.yes=§2Ja (Sicher)
+acm.welcome.tag_choice.button.no=§4Nein (Unsicher)
+acm.welcome.config_finished.body_line_0=§6ACM-Setup ist jetzt abgeschlossen!
+acm.welcome.config_finished.body_line_1=§6Ihre Auswahl kann jederzeit im ACM-Einstellungsmenü geändert werden.
+acm.welcome.config_finished.body_line_2=§6Schauen Sie sich unsere Website an:
+acm.welcome.config_finished.body_line_3=§3voxellabstudios.com
+acm.welcome.config_finished.body_line_4=§6für ACM-kompatible Addons!
+acm.welcome.tag_asigned.body_line_0=§6Spieler benötigen jetzt einen Tag, um auf die Einstellungen im ACM-Menü zuzugreifen.
+acm.welcome.tag_asigned.body_line_1=§5Tag-ID
+
+acm.vxl_acm.pack_name=§5A.C.M§r
+acm.vxl_acm.author_name=Donthedev
+acm.vxl_acm.description=ACM wurde entwickelt, um den Konfigurationsprozess für Add-ons zu optimieren. Es bietet Entwicklern eine einfache Möglichkeit zum Entwerfen von Einstellungsmenüs und eine zentrale Anlaufstelle für Benutzer zum Anpassen ihrer installierten Add-ons.
+acm.vxl_acm.use_tag=Für den Zugriff auf das ACM-Menü ist ein Tag erforderlich.
+acm.vxl_acm.tag_key=Erforderliche Tag-ID
+acm.vxl_acm.tag_key_placeholder=Beispiel: Admin
+acm.vxl_acm.extension_name=Benutzerdefinierter Erweiterungstitel

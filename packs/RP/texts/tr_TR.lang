@@ -1,0 +1,47 @@
+pack.name=A.C.M.
+pack.description=Eklenti Yapılandırma Yöneticisi
+
+item.vxl_acm:tool=A.C.M Aracı
+
+acm.lang.header=A.C.M.
+acm.lang.yes=Evet
+acm.lang.no=HAYIR
+acm.lang.return=Geri dönmek
+acm.lang.guide=Rehber
+acm.lang.settings=Ayarlar
+acm.lang.uninstall=Kaldır
+acm.lang.extension=Uzantıyı Çalıştır
+acm.lang.registered_addons=Kayıtlı Eklentiler
+acm.lang.uninstall_warn=Kaldırmak istediğinizden emin misiniz?
+acm.lang.uninstall_warn2=Kaldırma işlemi, önceden kaydedilmiş tüm ACM eklenti verilerini silecektir.
+acm.lang.addon_uninstalled=Eklenti başarıyla kaldırıldı.
+acm.lang.load_error=Eklenti verileri yüklenirken hata oluştu.
+acm.lang.privilege=Bu özelliğe erişmek için gerekli ayrıcalıklara sahip değilsiniz.
+
+acm.welcome.button.confirm=Tamam
+acm.welcome.on_ready.body_line0=§6§5Addon Configuration Manager§r§6'yı yüklediğiniz için teşekkür ederiz!
+acm.welcome.on_ready.body_line1=ACM menüsünü etkinleştirmek için §4item (Convenient)§6 mı yoksa §2command (Safe)§r§6 mı kullanmayı tercih edersiniz?
+acm.welcome.on_ready.button.command=§2Komut (Güvenli)
+acm.welcome.on_ready.button.item=§4Öğe (Uygun)
+acm.welcome.item_choice.body_line=§6Oyuncular artık ACM Aracını kullanarak ACM Menüsüne erişebilecekler.
+acm.welcome.command_choice.body_line_0=§6Oyuncular artık ACM Menüsüne ACM Komutu ile erişebilecekler.
+acm.welcome.command_choice.body_line_1=§5/scriptevent acm:menü
+acm.welcome.tag_choice.body_line_0=§6Oyuncuların ACM Menüsünde ayarlara erişebilmeleri için bir etikete sahip olmaları mı gerekiyor? §2(Önerilen)§r
+acm.welcome.tag_choice.body_line_1=§6Bu, ACM ayarlarından herhangi bir zamanda değiştirilebilir.
+acm.welcome.tag_choice.button.yes=§2Evet (Güvenli)
+acm.welcome.tag_choice.button.no=§4Hayır (Güvenli Değil)
+acm.welcome.config_finished.body_line_0=§6ACM kurulumu artık tamamlandı!
+acm.welcome.config_finished.body_line_1=§6Seçimleriniz herhangi bir zamanda ACM Ayarlar Menüsünde değiştirilebilir.
+acm.welcome.config_finished.body_line_2=§6Web sitemize göz atın:
+acm.welcome.config_finished.body_line_3=§3voxellabstudios.com
+acm.welcome.config_finished.body_line_4=§6ACM uyumlu Eklentiler için!
+acm.welcome.tag_asigned.body_line_0=§6Oyuncuların artık ACM Menüsündeki ayarlara erişmek için bir etikete ihtiyacı olacak.
+acm.welcome.tag_asigned.body_line_1=§5Etiket Kimliği
+
+acm.vxl_acm.pack_name=§5A.C.M§r
+acm.vxl_acm.author_name=Donthedev
+acm.vxl_acm.description=ACM, eklentiler için yapılandırma sürecini kolaylaştırmak üzere tasarlanmıştır. Geliştiricilere ayar menüleri tasarlamanın basit bir yolunu ve kullanıcıların yüklü eklentilerini özelleştirmeleri için tek durak konumu sunar.
+acm.vxl_acm.use_tag=ACM menüsüne erişim için bir etiket gereklidir.
+acm.vxl_acm.tag_key=Gerekli Etiket Kimliği
+acm.vxl_acm.tag_key_placeholder=Örnek: Yönetici
+acm.vxl_acm.extension_name=Özel Uzantı Başlığı

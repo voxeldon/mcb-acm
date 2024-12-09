@@ -1,11 +1,11 @@
 import { Player, ScriptEventCommandMessageAfterEvent, ScriptEventSource, system } from "@minecraft/server";
 
-export type CustomCommandAfterEvent = {player: Player, args: string }
+export type CommandRanEvent = {player: Player, args: string };
 
-export interface CustomCommand {
+export interface Command {
     id: string;
     description?: string;
-    callback: (event: CustomCommandAfterEvent) => void;
+    callback: (event: CommandRanEvent) => void;
 }
 
 /**
@@ -14,9 +14,9 @@ export interface CustomCommand {
  * @param commands - An array of custom commands.
  * 
  * --- Example ---
- *  const helloWorldCommand: CustomCommand = {
+ *  const helloWorldCommand: Command = {
  *      id: 'vxl:hello_world',
- *      callback: ((event: CustomCommandAfterEvent)=>{
+ *      callback: ((event: CommandAfterEvent)=>{
  *          event.player.sendMessage('Hello World!')
  *      })
  *  }
@@ -25,8 +25,8 @@ export interface CustomCommand {
  */
 export class CommandHandler {
     private static initialized: boolean = false;
-    private static commands: CustomCommand[] = [];
-    public static initialize(commands: CustomCommand[]) {
+    private static commands: Command[] = [];
+    public static initialize(prefix: string, commands: Command[]) {
         if (!CommandHandler.initialized) {
             CommandHandler.initialized = true;
             CommandHandler.commands = commands;
@@ -35,14 +35,17 @@ export class CommandHandler {
                     event.sourceType === ScriptEventSource.Entity &&
                     event.sourceEntity?.typeId === 'minecraft:player'
                 ) {
-                    if (event.id.includes('help')) {
+                    const source = event.sourceEntity as Player;
+                    if (event.id.includes(`${prefix}:help`) || event.id.includes(`${prefix}:info`)) {
                         CommandHandler.helpCommand(event.sourceEntity as Player);
                         return;
                     }
-                    const inputId: string = event.id;
+                    const inputId: string = event.id.replace(`${prefix}:`, '');
                     const command = commands.find(cmd => cmd.id === inputId);
                     if (command) {
                         command.callback({args: event.message, player: event.sourceEntity as Player})
+                    } else {
+                        source.sendMessage(`${prefix} | Unknown Command: ${event.id}`);
                     }
                 }
             })

@@ -1,0 +1,47 @@
+pack.name=A.C.M
+pack.description=Addon Configuration Manager
+
+item.vxl_acm:tool=A.C.M-verktøy
+
+acm.lang.header=A.C.M
+acm.lang.yes=Ja
+acm.lang.no=Ingen
+acm.lang.return=Retur
+acm.lang.guide=Guide
+acm.lang.settings=Innstillinger
+acm.lang.uninstall=Avinstaller
+acm.lang.extension=Kjør utvidelse
+acm.lang.registered_addons=Registrerte tillegg
+acm.lang.uninstall_warn=Er du sikker på at du vil avinstallere?
+acm.lang.uninstall_warn2=Avinstallering vil slette alle tidligere lagrede ACM-tilleggsdata.
+acm.lang.addon_uninstalled=Addon ble avinstallert.
+acm.lang.load_error=Feil ved innlasting av tilleggsdata.
+acm.lang.privilege=Du mangler de nødvendige rettighetene for å få tilgang til denne funksjonen.
+
+acm.welcome.button.confirm=Ok
+acm.welcome.on_ready.body_line0=§6Takk for at du installerte §5Addon Configuration Manager§r§6!
+acm.welcome.on_ready.body_line1=Vil du foretrekke å bruke en §4item (Convenient)§6 eller en §2kommando (Safe)§r§6 for å aktivere ACM-menyen?
+acm.welcome.on_ready.button.command=§2 Kommando (sikker)
+acm.welcome.on_ready.button.item=§4Vare (praktisk)
+acm.welcome.item_choice.body_line=§6 Spillere vil nå få tilgang til ACM-menyen med ACM-verktøyet.
+acm.welcome.command_choice.body_line_0=§6 Spillere vil nå få tilgang til ACM-menyen med ACM-kommandoen.
+acm.welcome.command_choice.body_line_1=§5/scriptevent acm:meny
+acm.welcome.tag_choice.body_line_0=§6Kreve at spillere har en tag for å få tilgang til innstillinger i ACM-menyen? §2(Anbefalt)§r
+acm.welcome.tag_choice.body_line_1=§6Dette kan endres når som helst i ACM-innstillingene.
+acm.welcome.tag_choice.button.yes=§2Ja (sikker)
+acm.welcome.tag_choice.button.no=§4Nei (utrygt)
+acm.welcome.config_finished.body_line_0=§6ACM-oppsettet er nå fullført!
+acm.welcome.config_finished.body_line_1=§6Valgene dine kan endres når som helst i ACM-innstillingsmenyen.
+acm.welcome.config_finished.body_line_2=§6 Sjekk ut vår nettside:
+acm.welcome.config_finished.body_line_3=§3voxellabstudios.com
+acm.welcome.config_finished.body_line_4=§6 for ACM-kompatible tillegg!
+acm.welcome.tag_asigned.body_line_0=§6 Spillere vil nå kreve en tag for å få tilgang til innstillingene i ACM-menyen.
+acm.welcome.tag_asigned.body_line_1=§5Tag-ID
+
+acm.vxl_acm.pack_name=§5A.C.M§r
+acm.vxl_acm.author_name=Donthedev
+acm.vxl_acm.description=ACM er designet for å strømlinjeforme konfigurasjonsprosessen for tillegg. Det tilbyr utviklere en enkel måte å designe innstillingsmenyer og en sted hvor brukerne kan tilpasse installerte tillegg.
+acm.vxl_acm.use_tag=Krev en tag for å få tilgang til ACM-menyen.
+acm.vxl_acm.tag_key=Nødvendig tag-ID
+acm.vxl_acm.tag_key_placeholder=Eksempel: Admin
+acm.vxl_acm.extension_name=Egendefinert utvidelsestittel

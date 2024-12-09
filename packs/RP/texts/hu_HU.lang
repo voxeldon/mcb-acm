@@ -1,0 +1,47 @@
+pack.name=A.C.M
+pack.description=Addon Configuration Manager
+
+item.vxl_acm:tool=A.C.M eszköz
+
+acm.lang.header=A.C.M
+acm.lang.yes=Igen
+acm.lang.no=Nem
+acm.lang.return=Visszatérés
+acm.lang.guide=Útmutató
+acm.lang.settings=Beállítások elemre
+acm.lang.uninstall=Eltávolítás
+acm.lang.extension=Futtassa a bővítményt
+acm.lang.registered_addons=Regisztrált kiegészítők
+acm.lang.uninstall_warn=Biztosan eltávolítja?
+acm.lang.uninstall_warn2=Az eltávolítás törli az összes korábban mentett ACM-kiegészítő adatot.
+acm.lang.addon_uninstalled=Az Addon eltávolítása sikeresen megtörtént.
+acm.lang.load_error=Hiba a kiegészítő adatok betöltésekor.
+acm.lang.privilege=Nem rendelkezik a funkció eléréséhez szükséges jogosultságokkal.
+
+acm.welcome.button.confirm=Rendben
+acm.welcome.on_ready.body_line0=§6Köszönjük az §5Addon Configuration Manager§r§6 telepítését!
+acm.welcome.on_ready.body_line1=Inkább egy §4item (Kényelmes)§6 vagy egy §2command (Biztonságos)§r§6 használatával aktiválja az ACM menüt?
+acm.welcome.on_ready.button.command=§2 Command (biztonságos)
+acm.welcome.on_ready.button.item=§4 elem (kényelmes)
+acm.welcome.item_choice.body_line=§6 A játékosok mostantól hozzáférhetnek az ACM menühöz az ACM eszközzel.
+acm.welcome.command_choice.body_line_0=§6 A játékosok mostantól hozzáférhetnek az ACM menühöz az ACM paranccsal.
+acm.welcome.command_choice.body_line_1=§5/scriptevent acm:menu
+acm.welcome.tag_choice.body_line_0=§6 Megköveteli, hogy a játékosok rendelkezzenek címkével az ACM menü beállításainak eléréséhez? §2(Ajánlott)§r
+acm.welcome.tag_choice.body_line_1=§6Ez bármikor módosítható az ACM beállításaiban.
+acm.welcome.tag_choice.button.yes=§2 Igen (biztonságos)
+acm.welcome.tag_choice.button.no=§4 Nem (nem biztonságos)
+acm.welcome.config_finished.body_line_0=§6ACM telepítése befejeződött!
+acm.welcome.config_finished.body_line_1=§6 A választások bármikor módosíthatók az ACM beállítások menüben.
+acm.welcome.config_finished.body_line_2=§6 Tekintse meg weboldalunkat:
+acm.welcome.config_finished.body_line_3=§3voxellabstudios.com
+acm.welcome.config_finished.body_line_4=§6 az ACM-kompatibilis kiegészítőkhöz!
+acm.welcome.tag_asigned.body_line_0=§6 A játékosoknak mostantól címkére lesz szükségük az ACM menü beállításainak eléréséhez.
+acm.welcome.tag_asigned.body_line_1=§5 Címkeazonosító
+
+acm.vxl_acm.pack_name=§5A.C.M§r
+acm.vxl_acm.author_name=Donthedev
+acm.vxl_acm.description=Az ACM célja a bővítmények konfigurációs folyamatának egyszerűsítése. Egyszerű módot kínál a fejlesztőknek a beállítási menük megtervezésére, és egy helyen, ahol a felhasználók testreszabhatják a telepített kiegészítőket.
+acm.vxl_acm.use_tag=Az ACM menü eléréséhez címke szükséges.
+acm.vxl_acm.tag_key=Kötelező címkeazonosító
+acm.vxl_acm.tag_key_placeholder=Példa: Admin
+acm.vxl_acm.extension_name=Egyéni bővítmény címe

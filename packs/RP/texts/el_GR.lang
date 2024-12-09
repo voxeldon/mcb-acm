@@ -1,0 +1,47 @@
+pack.name=A.C.M
+pack.description=Addon Configuration Manager
+
+item.vxl_acm:tool=Εργαλείο A.C.M
+
+acm.lang.header=A.C.M
+acm.lang.yes=Ναί
+acm.lang.no=Οχι
+acm.lang.return=Απόδοση
+acm.lang.guide=Οδηγός
+acm.lang.settings=Ρυθμίσεις
+acm.lang.uninstall=Απεγκατάσταση
+acm.lang.extension=Εκτέλεση επέκτασης
+acm.lang.registered_addons=Εγγεγραμμένα πρόσθετα
+acm.lang.uninstall_warn=Είστε βέβαιοι ότι θέλετε να απεγκαταστήσετε;
+acm.lang.uninstall_warn2=Η απεγκατάσταση θα διαγράψει όλα τα προηγουμένως αποθηκευμένα δεδομένα πρόσθετου ACM.
+acm.lang.addon_uninstalled=Το Addon απεγκαταστάθηκε με επιτυχία.
+acm.lang.load_error=Σφάλμα κατά τη φόρτωση των δεδομένων πρόσθετου.
+acm.lang.privilege=Δεν έχετε τα απαιτούμενα δικαιώματα για πρόσβαση σε αυτήν τη δυνατότητα.
+
+acm.welcome.button.confirm=Καλά
+acm.welcome.on_ready.body_line0=§6Ευχαριστούμε που εγκαταστήσατε το §5Addon Configuration Manager§r§6!
+acm.welcome.on_ready.body_line1=Θα προτιμούσατε να χρησιμοποιήσετε ένα στοιχείο §4 (Βολικό)§6 ή μια εντολή §2 (Ασφαλής)§r§6 για να ενεργοποιήσετε το μενού ACM;
+acm.welcome.on_ready.button.command=§2 Εντολή (Ασφαλής)
+acm.welcome.on_ready.button.item=§4 Αντικείμενο (Βολικό)
+acm.welcome.item_choice.body_line=§6 Οι παίκτες θα μπορούν πλέον να έχουν πρόσβαση στο μενού ACM με το Εργαλείο ACM.
+acm.welcome.command_choice.body_line_0=§6 Οι παίκτες θα μπορούν πλέον να έχουν πρόσβαση στο μενού ACM με την εντολή ACM.
+acm.welcome.command_choice.body_line_1=§5/σεναριοσυμβάν acm:menu
+acm.welcome.tag_choice.body_line_0=§6 Απαιτείται από τους παίκτες να έχουν μια ετικέτα για πρόσβαση στις ρυθμίσεις στο Μενού ACM; §2(Συνιστάται)§r
+acm.welcome.tag_choice.body_line_1=§6 Αυτό μπορεί να αλλάξει ανά πάσα στιγμή στις ρυθμίσεις ACM.
+acm.welcome.tag_choice.button.yes=§2 Ναι (Ασφαλής)
+acm.welcome.tag_choice.button.no=§4 Όχι (Μη ασφαλές)
+acm.welcome.config_finished.body_line_0=Η ρύθμιση §6ACM έχει πλέον ολοκληρωθεί!
+acm.welcome.config_finished.body_line_1=§6Οι επιλογές σας μπορούν να αλλάξουν ανά πάσα στιγμή στο μενού ρυθμίσεων ACM.
+acm.welcome.config_finished.body_line_2=§6 Δείτε τον ιστότοπό μας:
+acm.welcome.config_finished.body_line_3=§3voxellabstudios.com
+acm.welcome.config_finished.body_line_4=§6 για πρόσθετα συμβατά με ACM!
+acm.welcome.tag_asigned.body_line_0=§6 Οι παίκτες θα απαιτούν τώρα μια ετικέτα για πρόσβαση στις ρυθμίσεις στο Μενού ACM.
+acm.welcome.tag_asigned.body_line_1=§5 Αναγνωριστικό ετικέτας
+
+acm.vxl_acm.pack_name=§5A.C.M§r
+acm.vxl_acm.author_name=Ο Ντοντέντεφ
+acm.vxl_acm.description=Το ACM έχει σχεδιαστεί για να απλοποιεί τη διαδικασία διαμόρφωσης για πρόσθετα. Προσφέρει στους προγραμματιστές έναν απλό τρόπο να σχεδιάζουν μενού ρυθμίσεων και μια ενιαία τοποθεσία για τους χρήστες να προσαρμόζουν τα εγκατεστημένα πρόσθετά τους.
+acm.vxl_acm.use_tag=Απαιτείται ετικέτα για πρόσβαση στο μενού ACM.
+acm.vxl_acm.tag_key=Απαιτούμενο αναγνωριστικό ετικέτας
+acm.vxl_acm.tag_key_placeholder=Παράδειγμα: Διαχειρ
+acm.vxl_acm.extension_name=Τίτλος προσαρμοσμένης επέκτασης

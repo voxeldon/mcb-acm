@@ -1,0 +1,16 @@
+{
+    "format_version": "1.20.50",
+    "minecraft:item": {
+        "description": {
+            "identifier": "vxl_acm:tool",
+            "is_hidden_in_commands": true 
+        },
+        "components": {
+            "minecraft:icon": {
+                "texture": "compass_item"
+            },
+            "minecraft:hand_equipped": false,
+            "minecraft:max_stack_size": 1
+        }
+    }
+}

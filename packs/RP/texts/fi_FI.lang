@@ -1,0 +1,47 @@
+pack.name=A.C.M
+pack.description=Addon Configuration Manager
+
+item.vxl_acm:tool=A.C.M työkalu
+
+acm.lang.header=A.C.M
+acm.lang.yes=Kyllä
+acm.lang.no=Ei
+acm.lang.return=Palata
+acm.lang.guide=Opas
+acm.lang.settings=Asetukset
+acm.lang.uninstall=Poista asennus
+acm.lang.extension=Suorita laajennus
+acm.lang.registered_addons=Rekisteröidyt lisäosat
+acm.lang.uninstall_warn=Haluatko varmasti poistaa asennuksen?
+acm.lang.uninstall_warn2=Asennuksen poistaminen poistaa kaikki aiemmin tallennetut ACM-lisäosatiedot.
+acm.lang.addon_uninstalled=Addonin asennus onnistui.
+acm.lang.load_error=Virhe lisäosatietojen lataamisessa.
+acm.lang.privilege=Sinulla ei ole tarvittavia oikeuksia käyttää tätä ominaisuutta.
+
+acm.welcome.button.confirm=Kunnossa
+acm.welcome.on_ready.body_line0=§6Kiitos, että asensit §5Addon Configuration Manager§r§6!
+acm.welcome.on_ready.body_line1=Käytätkö mieluummin §4kohdetta (kätevä)§6 vai §2komentoa (Turvallinen)§r§6 ACM-valikon aktivoimiseen?
+acm.welcome.on_ready.button.command=§2 Command (turvallinen)
+acm.welcome.on_ready.button.item=§4 kohde (kätevä)
+acm.welcome.item_choice.body_line=§6Pelaajat pääsevät nyt ACM-valikkoon ACM-työkalulla.
+acm.welcome.command_choice.body_line_0=§6Pelaajat pääsevät nyt ACM-valikkoon ACM-komennolla.
+acm.welcome.command_choice.body_line_1=§5/scriptevent acm:menu
+acm.welcome.tag_choice.body_line_0=§6 Vaaditaanko pelaajilla tunniste päästäkseen ACM-valikon asetuksiin? §2(suositus)§r
+acm.welcome.tag_choice.body_line_1=§6Tätä voidaan muuttaa milloin tahansa ACM-asetuksista.
+acm.welcome.tag_choice.button.yes=§2 Kyllä (turvallinen)
+acm.welcome.tag_choice.button.no=§4Ei (vaarallinen)
+acm.welcome.config_finished.body_line_0=§6ACM-asennus on nyt valmis!
+acm.welcome.config_finished.body_line_1=§6Valintojasi voidaan muuttaa milloin tahansa ACM-asetusvalikossa.
+acm.welcome.config_finished.body_line_2=§6 Tutustu verkkosivustoomme:
+acm.welcome.config_finished.body_line_3=§3voxellabstudios.com
+acm.welcome.config_finished.body_line_4=§6 ACM-yhteensopiville lisäosille!
+acm.welcome.tag_asigned.body_line_0=§6Soittimet tarvitsevat nyt tunnisteen päästäkseen ACM-valikon asetuksiin.
+acm.welcome.tag_asigned.body_line_1=§5 Tunnisteen tunnus
+
+acm.vxl_acm.pack_name=§5A.C.M§r
+acm.vxl_acm.author_name=Donthedev
+acm.vxl_acm.description=ACM on suunniteltu virtaviivaistamaan lisäosien määritysprosessia. Se tarjoaa kehittäjille yksinkertaisen tavan suunnitella asetusvalikoita ja yhden luukun paikan, jossa käyttäjät voivat mukauttaa asennettuja lisäosia.
+acm.vxl_acm.use_tag=Vaadi tunniste päästäksesi ACM-valikkoon.
+acm.vxl_acm.tag_key=Pakollinen tunnistetunnus
+acm.vxl_acm.tag_key_placeholder=Esimerkki: Admin
+acm.vxl_acm.extension_name=Muokatun laajennuksen otsikko

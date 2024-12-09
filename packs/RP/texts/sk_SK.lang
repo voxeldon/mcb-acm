@@ -1,0 +1,47 @@
+pack.name=A.C.M
+pack.description=Addon Configuration Manager
+
+item.vxl_acm:tool=Nástroj A.C.M
+
+acm.lang.header=A.C.M
+acm.lang.yes=áno
+acm.lang.no=Nie
+acm.lang.return=Návrat
+acm.lang.guide=Sprievodca
+acm.lang.settings=Nastavenia
+acm.lang.uninstall=Odinštalovať
+acm.lang.extension=Spustiť rozšírenie
+acm.lang.registered_addons=Registrované doplnky
+acm.lang.uninstall_warn=Naozaj chcete odinštalovať?
+acm.lang.uninstall_warn2=Odinštalovaním sa vymažú všetky predtým uložené údaje doplnku ACM.
+acm.lang.addon_uninstalled=Doplnok bol úspešne odinštalovaný.
+acm.lang.load_error=Chyba pri načítavaní údajov doplnku.
+acm.lang.privilege=Chýbajú vám požadované oprávnenia na prístup k tejto funkcii.
+
+acm.welcome.button.confirm=Dobre
+acm.welcome.on_ready.body_line0=§6Ďakujeme za inštaláciu §5Správca konfigurácie doplnkov§r§6!
+acm.welcome.on_ready.body_line1=Chceli by ste na aktiváciu ponuky ACM radšej použiť §4položku (Pohodlné)§6 alebo §2príkaz (Bezpečné)§r§6?
+acm.welcome.on_ready.button.command=§2 Príkaz (bezpečný)
+acm.welcome.on_ready.button.item=§4Položka (pohodlná)
+acm.welcome.item_choice.body_line=§6Hráči budú mať teraz prístup k ponuke ACM pomocou nástroja ACM.
+acm.welcome.command_choice.body_line_0=§6Hráči budú mať teraz prístup do ponuky ACM pomocou príkazu ACM.
+acm.welcome.command_choice.body_line_1=§5/scriptevent acm:menu
+acm.welcome.tag_choice.body_line_0=§6 Vyžaduje sa, aby hráči mali štítok na prístup k nastaveniam v ponuke ACM? §2(Odporúča sa)§r
+acm.welcome.tag_choice.body_line_1=§6Toto je možné kedykoľvek zmeniť v nastaveniach ACM.
+acm.welcome.tag_choice.button.yes=§2 Áno (bezpečné)
+acm.welcome.tag_choice.button.no=§4 Nie (nebezpečné)
+acm.welcome.config_finished.body_line_0=§6 Nastavenie ACM je teraz dokončené!
+acm.welcome.config_finished.body_line_1=§6Vaše voľby je možné kedykoľvek zmeniť v ponuke nastavení ACM.
+acm.welcome.config_finished.body_line_2=§6 Pozrite si našu webovú stránku:
+acm.welcome.config_finished.body_line_3=§3voxellabstudios.com
+acm.welcome.config_finished.body_line_4=§6 pre doplnky kompatibilné s ACM!
+acm.welcome.tag_asigned.body_line_0=§6Hráči budú teraz vyžadovať štítok na prístup k nastaveniam v ponuke ACM.
+acm.welcome.tag_asigned.body_line_1=§5 ID značky
+
+acm.vxl_acm.pack_name=§5A.C.M§r
+acm.vxl_acm.author_name=Donthedev
+acm.vxl_acm.description=ACM je navrhnutý tak, aby zefektívnil proces konfigurácie doplnkov. Ponúka vývojárom jednoduchý spôsob navrhovania ponúk nastavení a jednorazové miesto, kde si používatelia môžu prispôsobiť svoje nainštalované doplnky.
+acm.vxl_acm.use_tag=Na prístup do ponuky ACM vyžadovať štítok.
+acm.vxl_acm.tag_key=Povinné ID značky
+acm.vxl_acm.tag_key_placeholder=Príklad: Admin
+acm.vxl_acm.extension_name=Názov vlastného rozšírenia

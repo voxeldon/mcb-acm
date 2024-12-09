@@ -1,0 +1,47 @@
+pack.name=A.C.M
+pack.description=Мениджър за конфигурация на добавки
+
+item.vxl_acm:tool=Инструмент A.C.M
+
+acm.lang.header=A.C.M
+acm.lang.yes=да
+acm.lang.no=не
+acm.lang.return=Връщане
+acm.lang.guide=Ръководство
+acm.lang.settings=Настройки
+acm.lang.uninstall=Деинсталиране
+acm.lang.extension=Стартирайте разширение
+acm.lang.registered_addons=Регистрирани добавки
+acm.lang.uninstall_warn=Сигурни ли сте, че искате да деинсталирате?
+acm.lang.uninstall_warn2=Деинсталирането ще изтрие всички предварително запазени данни за ACM добавки.
+acm.lang.addon_uninstalled=Добавката бе деинсталирана успешно.
+acm.lang.load_error=Грешка при зареждане на данните за добавките.
+acm.lang.privilege=Нямате необходимите привилегии за достъп до тази функция.
+
+acm.welcome.button.confirm=окей
+acm.welcome.on_ready.body_line0=§6Благодарим ви, че инсталирахте §5Addon Configuration Manager§r§6!
+acm.welcome.on_ready.body_line1=Бихте ли предпочели да използвате §4елемент (удобно)§6 или §2команда (безопасно)§r§6 за активиране на ACM менюто?
+acm.welcome.on_ready.button.command=§2Команда (безопасно)
+acm.welcome.on_ready.button.item=§4 Артикул (удобен)
+acm.welcome.item_choice.body_line=§6 Играчите вече ще имат достъп до ACM менюто с ACM Tool.
+acm.welcome.command_choice.body_line_0=§6 Играчите вече ще имат достъп до ACM менюто с ACM командата.
+acm.welcome.command_choice.body_line_1=§5/scriptevent acm:меню
+acm.welcome.tag_choice.body_line_0=§6 Изискване играчите да имат етикет за достъп до настройките в ACM менюто? §2(Препоръчително)§r
+acm.welcome.tag_choice.body_line_1=§6Това може да се промени по всяко време в настройките на ACM.
+acm.welcome.tag_choice.button.yes=§2 Да (безопасно)
+acm.welcome.tag_choice.button.no=§4Не (Опасно)
+acm.welcome.config_finished.body_line_0=§6 Настройката на ACM вече е завършена!
+acm.welcome.config_finished.body_line_1=§6Вашият избор може да бъде променен по всяко време в менюто за настройки на ACM.
+acm.welcome.config_finished.body_line_2=§6 Разгледайте нашия уебсайт:
+acm.welcome.config_finished.body_line_3=§3voxellabstudios.com
+acm.welcome.config_finished.body_line_4=§6 за ACM-съвместими добавки!
+acm.welcome.tag_asigned.body_line_0=§6 Играчите вече ще изискват етикет за достъп до настройките в ACM менюто.
+acm.welcome.tag_asigned.body_line_1=§5 ID на етикет
+
+acm.vxl_acm.pack_name=§5A.C.M§r
+acm.vxl_acm.author_name=Донтедев
+acm.vxl_acm.description=ACM е проектиран да рационализира процеса на конфигуриране за добавки. Той предлага на разработчиците лесен начин за проектиране на менюта с настройки и едно място за потребителите да персонализират своите инсталирани добавки.
+acm.vxl_acm.use_tag=Изискване на етикет за достъп до ACM менюто.
+acm.vxl_acm.tag_key=Задължителен идентификатор на етикет
+acm.vxl_acm.tag_key_placeholder=Пример: Админ
+acm.vxl_acm.extension_name=Персонализирано заглавие на разширението
