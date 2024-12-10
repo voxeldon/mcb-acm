@@ -1,5 +1,5 @@
-import { ScoreboardObjective, world } from "@minecraft/server";
-import { AddonConfiguration, AddonSetting } from "../acm_api";
+import { ScoreboardObjective, system, world } from "@minecraft/server";
+import { AcmApi, AddonConfiguration, AddonSetting } from "../acm_api";
 import { RawText } from "../_lib/spec/_module/util/raw_text";
 export class ConfigManager {
     private static initialized: boolean = false;
@@ -12,12 +12,13 @@ export class ConfigManager {
         else
             throw Error('ConfigManager already initialized.');
     }
-    processSubscriptions(): void {
+    private processSubscriptions(): void {
         world.afterEvents.worldInitialize.subscribe((() => {
+            this.deleteLogs();
             this.loadWorldData();
         }));
     }
-    loadWorldData(): void {
+    private loadWorldData(): void {
         const configObjectives: ScoreboardObjective[] = [];
         const scoreboardObjectives = world.scoreboard.getObjectives();
         //Get all config property ids
@@ -37,9 +38,14 @@ export class ConfigManager {
                 throw Error('Error parsing addon data.');
             const data = JSON.parse(rawData);
             ConfigManager.registeredAddonProfiles.set(objective.displayName.replace('ACM:', ''), data);
+            AcmApi.pushLog(data, `§2Loaded Successfully§r`)
         });
     }
-    static deleteAddonFromIndex(profile: AddonConfiguration): void {
+    private deleteLogs(){
+        const db: ScoreboardObjective | undefined = world.scoreboard.getObjective('acm:logs');
+        if (db) world.scoreboard.removeObjective('acm:logs');
+    }
+    public static deleteAddonFromIndex(profile: AddonConfiguration): void {
         const profileKey = `${profile.authorId}_${profile.packId}`;
         ConfigManager.registeredAddonProfiles.delete(profileKey);
         const savedData = world.scoreboard.getObjective(`ACM:${profileKey}`);
@@ -48,7 +54,7 @@ export class ConfigManager {
             world.sendMessage(RawText.TRANSLATE('acm.lang.addon_uninstalled'));
         }
     }
-    static getSettingType(setting: AddonSetting): string {
+    public static getSettingType(setting: AddonSetting): string {
         if ('placeholder' in setting) {
             return 'text_field';
         }

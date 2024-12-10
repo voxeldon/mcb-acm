@@ -7,7 +7,7 @@
         },
         "components": {
             "minecraft:icon": {
-                "texture": "compass_item"
+                "texture": "vxl_acm_tool"
             },
             "minecraft:hand_equipped": false,
             "minecraft:max_stack_size": 1

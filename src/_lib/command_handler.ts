@@ -44,9 +44,7 @@ export class CommandHandler {
                     const command = commands.find(cmd => cmd.id === inputId);
                     if (command) {
                         command.callback({args: event.message, player: event.sourceEntity as Player})
-                    } else {
-                        source.sendMessage(`${prefix} | Unknown Command: ${event.id}`);
-                    }
+                    } 
                 }
             })
         } else {

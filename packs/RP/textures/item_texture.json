@@ -1,0 +1,9 @@
+{
+	"resource_pack_name": "vxl_acm",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"vxl_acm_tool": {
+			"textures": "textures/voxel/vxl_acm/items/tool"
+		}
+	}
+}

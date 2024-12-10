@@ -4,36 +4,20 @@
     "description": "pack.description",
     "name": "pack.name",
     "uuid": "18bd8994-86b1-4f1a-8902-528c25d0e558",
-    "version": [
-      0,
-      0,
-      1
-    ],
-    "min_engine_version": [
-      1,
-      21,
-      41
-    ]
+    "version": [ 1, 0, 0 ],
+    "min_engine_version": [ 1, 21, 50]
   },
   "modules": [
     {
       "type": "data",
       "uuid": "1f595839-2d78-4046-bf3e-58bc7d4daabf",
-      "version": [
-        0,
-        0,
-        1
-      ]
+      "version": [ 1, 0, 0 ]
     },
     {
       "type": "script",
       "language": "javascript",
       "uuid": "ac6af16c-8ccb-4ede-86cf-6add0ef9b880",
-      "version": [
-        0,
-        0,
-        1
-      ],
+      "version": [ 1, 0, 0 ],
       "entry": "scripts/vxl_acm/index.js"
     }
   ],
@@ -45,15 +29,11 @@
   "dependencies": [
     {
       "uuid": "5e5d3e3c-c77e-4a13-a941-f500007ec2fc",
-      "version": [
-        0,
-        0,
-        1
-      ]
+      "version": [ 1, 0, 0 ]
     },
     {
       "module_name": "@minecraft/server",
-      "version": "1.15.0"
+      "version": "1.16.0"
     },
     {
       "module_name": "@minecraft/server-ui",

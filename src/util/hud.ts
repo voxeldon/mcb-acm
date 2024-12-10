@@ -59,7 +59,7 @@ export class AcmHud {
             form.addButton('settings', RawText.TRANSLATE(`acm.lang.settings`), 'textures/voxel/vxl_acm/icons/exclaim');
         }
         if (profileId !== 'vxl_acm') {
-            form.addButton('uninstall', RawText.TRANSLATE(`acm.lang.uninstall`), 'textures/voxel/vxl_acm/icons/missing');
+            form.addButton('uninstall', RawText.TRANSLATE(`acm.lang.uninstall`), 'textures/voxel/vxl_acm/icons/uninstall');
         }
         form.addButton('return', RawText.TRANSLATE(`acm.lang.return`), 'textures/voxel/vxl_acm/icons/return');
         form.showForm(this.player).then((data) => {
@@ -170,9 +170,9 @@ export class AcmHud {
                         db.setScore(JSON.stringify(obj), 1);
                     });
                 }
-                this.showAddonProfile(profile);
                 this.player.runCommand(`scriptevent acm:${profileId} ${JSON.stringify(obj)}`);
             }
+            this.showAddonProfile(profile);
         });
     }
 }

@@ -40,8 +40,8 @@ acm.welcome.tag_asigned.body_line_1=§5Tag ID
 
 acm.vxl_acm.pack_name=§5A.C.M§r
 acm.vxl_acm.author_name=Donthedev
-acm.vxl_acm.description=ACM is designed to streamline the configuration process for addons. It offers developers a simple way to design settings menus and a one stop location for users to customize their installed addons.
+acm.vxl_acm.description=ACM, A simple configuration menu for addons.
 acm.vxl_acm.use_tag=Require a tag to access ACM menu.
 acm.vxl_acm.tag_key=Required Tag Id
 acm.vxl_acm.tag_key_placeholder=Example: Admin
-acm.vxl_acm.extension_name=Custom Extension Title
+acm.vxl_acm.logs=§6Logs
