@@ -139,7 +139,7 @@ export interface AddonConfiguration {
     iconPath?: string;
     addonSettings?: AddonSetting[];
     guideKeys?: string[];
-    extension?: AddonExtension;
+    extension?: AddonExtension | AddonExtension[];
 }
 
 
@@ -158,9 +158,14 @@ export class AcmApi {
                 for (const handler of AcmApi.eventSignal) {
                     handler({ type: 'data_changed', data: AcmApi.loadAddonData(profile) });
                 }
-            } else if (event.id === `acm:${profile.authorId}_${profile.packId}.${profile.extension?.eventId}`) {
-                for (const handler of AcmApi.eventSignal) {
-                    handler({ type: 'extension_triggerd', player: event.sourceEntity as Player });
+            } else {
+                const extensions = Array.isArray(profile.extension) ? profile.extension : [profile.extension];
+                for (const ext of extensions) {
+                    if (event.id === `acm:${profile.authorId}_${profile.packId}.${ext?.eventId}`) {
+                        for (const handler of AcmApi.eventSignal) {
+                            handler({ type: 'extension_triggerd', player: event.sourceEntity as Player });
+                        }
+                    }
                 }
             }
         })

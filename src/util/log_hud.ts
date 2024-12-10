@@ -26,7 +26,7 @@ export class AcmLogHud{
         })
         const logStrings: string[] = [];
         logData.forEach((log: AcmLog)=>{
-            logStrings.push(`§6Id: ${log.profileId.replace('ACM:', '')}§r\n${log.logText}\n`);
+            logStrings.push(`§6ADDON: ${log.profileId.replace('ACM:', '')}§r\n${log.logText}\n`);
         })
         return logStrings.join('\n');
     }

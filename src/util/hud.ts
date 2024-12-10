@@ -1,5 +1,5 @@
 import { Player, RawMessage, world } from "@minecraft/server";
-import { AcmApi, AddonConfiguration, DropdownSetting, SliderSetting, TextFieldSetting, ToggleSetting } from "../acm_api";
+import { AcmApi, AddonConfiguration, AddonExtension, DropdownSetting, SliderSetting, TextFieldSetting, ToggleSetting } from "../acm_api";
 import { ConfigManager } from "./config_manager";
 import { ActionForm, ModalForm, ModalFormFormReturnData } from "../_lib/spec/_module/util/form";
 import { RawText } from "../_lib/spec/_module/util/raw_text";
@@ -43,14 +43,20 @@ export class AcmHud {
         const profileId = `${profile.authorId}_${profile.packId}`;
         form.setTitle(RawText.TRANSLATE(`acm.${profileId}.pack_name`));
         form.setBody(RawText.TRANSLATE(`acm.${profileId}.description`));
+        const extensionIndex: Map<string, AddonExtension> = new Map<string, AddonExtension>();
         if (profile.extension) {
             let iconPath = 'textures/voxel/vxl_acm/icons/missing';
             let buttonText = RawText.TRANSLATE(`acm.lang.extension`);
-            if (profile.extension.iconPath)
-                iconPath = `textures/${profile.extension.iconPath}`;
-            if (profile.extension.langKey)
-                buttonText = RawText.TRANSLATE(`acm.${profileId}.${profile.extension.langKey}`);
-            form.addButton('extension', buttonText, iconPath);
+            const extensions = Array.isArray(profile.extension) ? profile.extension : [profile.extension];
+            for (const ext of extensions) {
+                if (ext.iconPath)
+                    iconPath = `textures/${ext.iconPath}`;
+                if (ext.langKey)
+                    buttonText = RawText.TRANSLATE(`acm.${profileId}.${ext.langKey}`);
+                form.addButton(`${profile.authorId}_${profile.packId}_${ext.eventId}`, buttonText, iconPath);
+                extensionIndex.set(`${profile.authorId}_${profile.packId}_${ext.eventId}`, ext);
+            }
+            
         }
         if (profile.guideKeys) {
             form.addButton('guide', RawText.TRANSLATE(`acm.lang.guide`), 'textures/voxel/vxl_acm/icons/question');
@@ -85,8 +91,9 @@ export class AcmHud {
                         this.player.sendMessage(RawText.TRANSLATE('acm.lang.privilege'));
                     }
                 }
-                if (data.indexId === 'extension' && profile?.extension?.eventId) {
-                    this.player.runCommand(`scriptevent acm:${profileId}.${profile.extension.eventId}`);
+                const extension: AddonExtension | undefined = extensionIndex.get(data.indexId);
+                if (extension && extension.eventId) {
+                    this.player.runCommand(`scriptevent acm:${profileId}.${extension.eventId}`);
                 }
             }
         });
